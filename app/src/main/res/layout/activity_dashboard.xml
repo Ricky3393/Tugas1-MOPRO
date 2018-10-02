@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/putih"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:layout_marginTop="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rumah"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_above="@id/btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Lokasi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="@color/biru"
+                android:gravity="center"
+                android:text="LOKASI" />
+
+            <Button
+                android:id="@+id/btn_telepon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/biru"
+                android:gravity="center"
+                android:text="TELEPON" />
+
+        </LinearLayout>
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="2dp"
+            android:text="Menu" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
