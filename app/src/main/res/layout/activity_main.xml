@@ -8,213 +8,275 @@
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:textSize="20sp"
+            android:text="Menu Makanan"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_ikanMas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Menu Makanan"/>
+            android:layout_margin="8dp">
 
-        <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ikan Mas Bakar 50000"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/txt_ikan_bakar_mas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_ikanNila"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ikan Mas Bakar"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_ikan_bakar_mas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:text="Ikan Nila Bakar 55000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
+                <EditText
+                    android:id="@+id/txt_ikan_bakar_nila"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_ikanMasGoreng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ikan Nila Bakar"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_ikan_bakar_nila"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ikan Mas Goreng 45000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
+                <EditText
+                    android:id="@+id/txt_ikan_goreng_mas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_ikanNilaGoreng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ikan Mas Goreng"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_ikan_goreng_mas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ikan Nila Goreng 50000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/txt_ikan_goreng_nila"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ikan Nila Goreng"
-                android:textAlignment="center" />
-
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_ikan_goreng_nila"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:layout_width="match_parent"
             android:gravity="center"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"
-            android:text="Menu Minuman"/>
+            android:text="Menu Minuman"
+            android:textSize="20sp" />
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_EsKelapa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Kelapa Muda"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_es_kelapa"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Kelapa Muda 5000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
+                <EditText
+                    android:id="@+id/txt_es_kelapa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_TehManis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Teh Manis"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/tex_es_teh"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Teh Manis 4000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
+                <EditText
+                    android:id="@+id/tex_es_teh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_EsDawet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Dawet"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_es_dawet"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Dawet 5000"
+                    android:textAlignment="center" />
 
-        <LinearLayout
+                <EditText
+                    android:id="@+id/txt_es_dawet"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_EsCincau"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Cincau"
-                android:textAlignment="center" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:inputType="number"
-                android:id="@+id/txt_es_cincau"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0"
-                android:textAlignment="center" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Cincau 5000"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/txt_es_cincau"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
 
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -223,12 +285,12 @@
 
             <Button
                 android:id="@+id/btn_cek_harga"
-                android:textSize="20sp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Cek Harga : "
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tex_tampil_harga"
@@ -241,12 +303,12 @@
 
         <Button
             android:id="@+id/btn_pesan"
-            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Pesan "
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

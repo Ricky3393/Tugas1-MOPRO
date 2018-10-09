@@ -8,6 +8,7 @@
     android:background="@color/putih"
     tools:context=".DashboardActivity">
 
+
     <ImageView
         android:layout_marginTop="130dp"
         android:layout_width="150dp"
@@ -55,8 +56,6 @@
             android:text="Menu" />
 
     </RelativeLayout>
-
-
 
 
 </LinearLayout>
