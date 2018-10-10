@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="hijau">#40ff53</color>
     <color name="biru">#4086ff</color>
-    <color name="abu">#fdf5fb</color>
     <color name="putih">#fcffffff</color>
+    <color name="hitam">#fc120e0e</color>
+    <color name="abuu">#fca4a1a1</color>
 </resources>

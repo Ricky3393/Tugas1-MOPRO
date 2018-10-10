@@ -4,7 +4,7 @@
     <item
         android:id="@+id/about"
         android:title="Menu"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/setting"
@@ -14,7 +14,7 @@
     <item
         android:id="@+id/help"
         android:title="Lokasi"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 
 
 </menu>

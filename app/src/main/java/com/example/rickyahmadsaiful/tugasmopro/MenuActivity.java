@@ -16,7 +16,7 @@ import android.widget.Toast;
 public class MenuActivity extends AppCompatActivity {
     EditText ikanMasBakar, ikanNilaBakar, ikanMasgoreng, ikanNilaGoreng, esKelapa, esTeh, esDawet, esCincaw;
     Button pesan, cekHarga;
-    CardView cvIkanMas,cvIkanNila, cvIkanMasGoreng, cvIkanNilaGoreng, cvEsKelapa, cvEsTehManis, cvEsDawet, cvEsCincau ;
+    CardView cvIkanMas, cvIkanNila, cvIkanMasGoreng, cvIkanNilaGoreng, cvEsKelapa, cvEsTehManis, cvEsDawet, cvEsCincau;
     int masBakar = 50000, nilaBakar = 55000, masgoreng = 45000, nilaGoreng = 50000, kelapa = 5000, teh = 4000, dawet = 5000, cincaw = 5000;
     int qikanMasBakar, qikanNilaBakar, qikanMasgoreng, qikanNilaGoreng, qesKelapa, qesTeh, qesDawet, qesCincaw;
     TextView jml;
@@ -77,11 +77,12 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MenuActivity.this, "Terima kasih Sudah Memesan", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MenuActivity.this,DashboardActivity.class));
+                startActivity(new Intent(MenuActivity.this, DashboardActivity.class));
             }
         });
 
     }
+
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         menu.add(0, v.getId(), 0, "1");
@@ -90,6 +91,7 @@ public class MenuActivity extends AppCompatActivity {
         menu.add(0, v.getId(), 0, "4");
         menu.add(0, v.getId(), 0, "5");
     }
+
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         int angkaContexMenu = Integer.valueOf(item.getTitle().toString());
@@ -98,28 +100,22 @@ public class MenuActivity extends AppCompatActivity {
         } else if ((item.getItemId() == R.id.cv_ikanNila)) {
             ikanNilaBakar.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_ikanMasGoreng)) {
+        } else if ((item.getItemId() == R.id.cv_ikanMasGoreng)) {
             ikanMasgoreng.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_ikanNilaGoreng)) {
+        } else if ((item.getItemId() == R.id.cv_ikanNilaGoreng)) {
             ikanNilaGoreng.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_TehManis)) {
+        } else if ((item.getItemId() == R.id.cv_TehManis)) {
             esTeh.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_EsCincau)) {
-            esCincaw.setText(item.getTitle().toString());
+        } else if ((item.getItemId() == R.id.cv_EsKelapa)) {
+            esKelapa.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_EsDawet)) {
+        } else if ((item.getItemId() == R.id.cv_EsDawet)) {
             esDawet.setText(item.getTitle().toString());
 
-        }
-        else if ((item.getItemId() == R.id.cv_EsCincau)) {
+        } else if ((item.getItemId() == R.id.cv_EsCincau)) {
             esCincaw.setText(item.getTitle().toString());
 
         }

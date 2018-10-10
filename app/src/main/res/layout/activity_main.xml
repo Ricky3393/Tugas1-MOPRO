@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/putih"
+    android:background="@color/biru"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Menu Makanan"
+            android:textColor="@color/hitam"
             android:textSize="20sp" />
 
         <android.support.v7.widget.CardView
@@ -149,6 +150,7 @@
             android:layout_marginTop="4dp"
             android:gravity="center"
             android:text="Menu Minuman"
+            android:textColor="@color/hitam"
             android:textSize="20sp" />
 
         <android.support.v7.widget.CardView
@@ -288,6 +290,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@color/hijau"
                 android:text="Cek Harga : "
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -306,6 +309,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/hijau"
             android:text="Pesan "
             android:textAlignment="center"
             android:textSize="20sp" />

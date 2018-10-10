@@ -712,6 +712,10 @@
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logi.png.flat",
+        "source": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\src\\main\\res\\drawable-v24\\logi.png"
+    },
+    {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
