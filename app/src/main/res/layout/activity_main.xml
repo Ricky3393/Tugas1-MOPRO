@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/biru"
+    android:background="@color/abuu"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
@@ -290,7 +290,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/hijau"
+                android:background="@color/putih"
                 android:text="Cek Harga : "
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -309,7 +309,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/hijau"
+            android:background="@color/putih"
             android:text="Pesan "
             android:textAlignment="center"
             android:textSize="20sp" />

@@ -516,6 +516,10 @@
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rumi.jpg.flat",
+        "source": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\src\\main\\res\\drawable\\rumi.jpg"
+    },
+    {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\dc426aa9de37d877286a4ce6f92b757b\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -640,12 +644,12 @@
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
@@ -1176,6 +1180,10 @@
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telpon.png.flat",
+        "source": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\src\\main\\res\\drawable\\telpon.png"
+    },
+    {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\dc426aa9de37d877286a4ce6f92b757b\\res\\drawable\\notification_bg.xml"
     },
@@ -1406,6 +1414,10 @@
     {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ikan.png.flat",
+        "source": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\src\\main\\res\\drawable\\ikan.png"
     },
     {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1706,6 +1718,10 @@
     {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
         "source": "C:\\Users\\Ricky Ahmad Saiful\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\75405e6e75043feec5139d6e8eb0a84b\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lokas.png.flat",
+        "source": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\src\\main\\res\\drawable\\lokas.png"
     },
     {
         "merged": "D:\\KULIAH\\SEMESTER 7\\Mobail Programing\\tugasmopro\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",

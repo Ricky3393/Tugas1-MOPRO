@@ -9,10 +9,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class DashboardActivity extends AppCompatActivity {
-    Button menu, telepon, lokasi;
+    Button menu;
+    ImageView telepon, lokasi;
 
     String goolgeMap = "com.google.android.apps.maps"; // identitas package aplikasi google masps android
     Uri gmmIntentUri;
